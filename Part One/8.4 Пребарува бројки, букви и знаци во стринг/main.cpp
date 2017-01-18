@@ -18,9 +18,9 @@ int brojki(char*znak)
     int br=0;
     while(*znak!='\0')
     {
-                      if(isdigit(*znak))
-                                        br++;
-                                        znak++;
+        if(isdigit(*znak))
+        br++;
+        znak++;
     }
     return br;
 }
@@ -30,8 +30,8 @@ int bukvi(char*znak)
     while (*znak!='\0')
     {
           if(isalpha(*znak))
-                          bu++;
-                          znak++;
+              bu++;
+              znak++;
 
     }
     return bu;
